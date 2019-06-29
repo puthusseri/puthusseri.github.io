@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 title: Your awesome title
 author: GitHub User
 email: your-email@domain.com
@@ -54,3 +55,6 @@ theme: plainwhite
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+=======
+theme: jekyll-theme-time-machine
+>>>>>>> 4c261a396a6aae41dc2c8c99a22abe1db3027724
