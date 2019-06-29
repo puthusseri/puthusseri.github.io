@@ -1,2 +1,0 @@
-import Form from 'stores/models/Form.mobx.js';
-export const exportForm = (fields, validations) => (_fields = {}, _validations = {}) => new Form({...fields, ..._fields}, {...validations, ..._validations});
