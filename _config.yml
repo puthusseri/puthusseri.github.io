@@ -32,7 +32,6 @@ plainwhite:
     twitter: puthusseris
     github:  puthusseri
     linkedIn: puthusseri
-    
 # Build settings
 markdown: kramdown
 remote_theme: thelehhman/plainwhite-jekyll
