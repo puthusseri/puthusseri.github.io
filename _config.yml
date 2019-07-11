@@ -1,37 +1,6 @@
-title: Vyshak Puthusseri
-email: vyshakputhusseri@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Samarjeet Singh @thelehhman writings on design, development and more.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://puthusseri.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: /:categories/:title/
-plainwhite:
-  name: Vyshak Puthusseri
-  tagline: Master of Computer Application 
-  date_format: "%b %-d, %Y"
-
-  disqus_shortname: puthusseri
-
-  # generate social links in footer
-  social_links:
-    twitter: puthusseris
-    github:  puthusseri
-    linkedIn: in/puthusseri
-# Build settings
-markdown: kramdown
+title: Minimal theme
+logo: /assets/img/logo.png
+description: Minimal is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-minimal
-show_excerpts: true
-plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
