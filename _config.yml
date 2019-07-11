@@ -19,7 +19,7 @@ plainwhite:
     linkedIn: in/puthusseri
 # Build settings
 markdown: kramdown
-remote_theme: thelehhman/plainwhite-jekyll
+theme: jekyll-theme-minimal
 show_excerpts: true
 plugins:
   - jekyll-feed
