@@ -14,14 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Vyshak Puthusseri
-email: thelehhman@gmail.com
+email: vyshakputhusseri@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Samarjeet Singh @thelehhman writings on design, development and more.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://thelehhman.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://puthusseri.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:title/
 plainwhite:
-  name: Samarjeet Singh
+  name: Vyshak Puthusseri
   tagline: Developer. Designer
   date_format: "%b %-d, %Y"
   analytics_id: UA-127004425-1
@@ -29,10 +29,10 @@ plainwhite:
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
-    # rss: rss
+    twitter: puthusseris
+    github:  puthusseri
+    linkedIn: puthusseri
+    
 # Build settings
 markdown: kramdown
 remote_theme: thelehhman/plainwhite-jekyll
