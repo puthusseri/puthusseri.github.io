@@ -38,7 +38,13 @@ a {
     text-align: center;
     font-size: 1.2rem;
     padding: 0;
-    text-decoration-color: transparent;
+    /* text-decoration-color: transparent; */
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+    text-decoration-color: rgba(255, 255, 255, 0.2);
+    text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
+    border-bottom-color: rgba(255, 255, 255, 0.2);
 }
 
 .fa {
