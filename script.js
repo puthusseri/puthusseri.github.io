@@ -72,10 +72,10 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hello world 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Vyshak Puthusseri</a>.</span><br><br>I am a Software Engineer. 👨🏻‍💻</span><br><br>A human, who loves being a student of technology for life. <br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
+                sendTextMessage("Hello world 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Vyshak Puthusseri</a>.</span><br><br>I am a Software Engineer. 👨🏻‍💻</span><br><br>A human, who loves being a student of technology for life. <br><br>Send <span class='bold'>'hi'</span> to know more about me.<br>");
             }, 2000);
             break;
-        case "help":
+        case "hi":
             sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about me...<br>e.g<br><span class='bold'>'skills'</span> - to know my skills<br><span class='bold'>'resume'</span> - to get my resume<br><span class='bold'>'education'</span> - to get my education details<br><span class='bold'>'address'</span> - to get my address<br><span class='bold'>'contact'</span> - to get ways to connect with me<br><span class='bold'>'projects'</span> - to get details of my projects<br><span class='bold'>'clear'</span> - to clear conversation<br><span class='bold'>'about'</span> - to know about this site</span>");
             break;
         case "resume":
@@ -109,7 +109,7 @@ function waitAndResponce(inputText) {
             break;
         default:
             setTimeout(() => {
-                sendTextMessage("Sorry I dont understand your language.<br>Send 'help' to know more about usage.");
+                sendTextMessage("Sorry I dont understand your language.<br>Send 'hi' to know more about usage.");
             }, 2000);
             break;
     }
